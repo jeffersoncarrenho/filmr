@@ -1,0 +1,61 @@
+
+body{
+  background: url('../img/Background.png');
+  background-color: #4694f7;
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navbar{
+  padding: 30px 0;
+}
+
+.main p{
+  font-size: 30px;
+  color: #fff;
+}
+
+ul.appstores{
+  padding: 0;
+}
+
+ul.appstores li{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width:768px) {
+  body{
+    background-size:contain;
+  }
+
+
+  .brand img{
+    max-width: 150px;
+  }
+
+  .iphone{
+    /* position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%); */
+    max-width: 450px;
+  }
+  .main p{
+    /* position:fixed;
+    top:80%;
+    left:50%;
+    transform: translate(-50%,-50%); */
+  }
+
+  ul.appstores{
+    /* position:fixed;
+    top:100%;
+    left:50%;
+    transform: translate(-50%,-50%); */
+  }
+
+}
